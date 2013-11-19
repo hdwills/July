@@ -13,5 +13,17 @@ July
 目前先托管在这里，有更新我会保持同步的。
 > Simple is Everything.
 
+-------------------------------------
+目前 clone 后需要更改的部分：
+
+1. template\include\description.html
+
+	`line:7`往后 - 这里面是个人信息相关的。
+
+2. template\include\css\
+
+	`line:133` - 这里是个人avatar头像地址
+
+
 Template for [Farbox](http://farbox.com)    
 July by Harry

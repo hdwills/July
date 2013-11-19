@@ -1,0 +1,14 @@
+{% if not paginator %}
+    {% set paginator = get_paginator() %}
+{% endif %}
+
+{% if paginator.has_previous or  paginator.has_next %}
+    <div class="pager">
+        {% if paginator.has_previous %}
+            <a class="pre" title="Pre" href="{{ paginator.previous_page_url }}"><i aria-hidden="true" class="icon-arrow-left"></i></a>
+        {% endif %}
+        {% if paginator.has_next %}
+            <a class="next" title="Next" href="{{ paginator.next_page_url}}"><i aria-hidden="true" class="icon-arrow-right"></i></a>
+        {% endif %}
+    </div>
+{% endif %}
