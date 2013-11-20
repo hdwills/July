@@ -1,5 +1,6 @@
 # 替换为font-awesome
 
+* 删掉 `template\js`, `template\font` 这两个文件夹
 * base.html line:15 替换    
 `<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">`    
 这里是替换为font-awesome
