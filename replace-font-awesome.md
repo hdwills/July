@@ -1,7 +1,7 @@
 # 替换为font-awesome
 
 * base.html line:15 替换    
-`<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">`
+`<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">`    
 这里是替换为font-awesome
 
 * basic.css line:571 - line:639 这部分删掉    
